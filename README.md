@@ -1,2 +1,7 @@
 # sscheller.github.io
-One Awesome User Repo
+
+## Sources
+* [Normalize CSS](https://necolas.github.io/normalize.css/)
+* [jQuery](https://jquery.com/)
+
+
