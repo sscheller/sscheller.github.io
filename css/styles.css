@@ -25,7 +25,7 @@
     height: 50%;
     margin-left:  20%;
     margin-right:  50%;
-    
+    padding-bottom: 30px;
   
  
 
@@ -34,13 +34,6 @@
   }
 
 
-
-article {
-  height: 100%;
-  width: 100%;
-  color:red;
-  position: absolute;
-}
 
   div .pic{
 
@@ -54,25 +47,20 @@ article {
 
   /* sonja picture */
 
-div {
-  background-size: cover;
-    padding-top: 50px;
-    color:burlywood;
-}
 
  h1 {
   font-family: 'Philosopher', sans-serif;
   text-align: center;
-  font-size: 120px;
+  font-size: 900%;
   color: #4F4F4F;
   position: relative;
-  padding-top: 50px;
   width: 50%;
   top: 800px;
   margin-left: 20%;
   margin-right: 50%;
-  margin-top: 70px;
-  /* margin-bottom: auto; */
+  margin-top: 0%;
+  margin-bottom: 0%;
+  
 
 
 }
@@ -88,7 +76,7 @@ div {
   font-family: Philosopher;
 font-style: normal;
 font-weight: bold;
-font-size: 80px;
+font-size: 500%;
 line-height: 108px;
 text-align: center;
 color:#BDBDBD;
@@ -100,14 +88,14 @@ width: 80%;
 border-top-right-radius: 20px;
 border-bottom-right-radius: 20px;
 position:absolute;
-top:2000px;
+top:1900px;
 }
 
 .b{
   font-family: Philosopher;
   font-style: normal;
   font-weight: bold;
-  font-size: 80px;
+  font-size: 500%;
   line-height: 108px;
   text-align: center;
   color:#BDBDBD;
@@ -130,11 +118,11 @@ color:#714BA0;
 position: absolute;
 width: 50%;
 left: 420px;
-top: 2200px;
+top: 2100px;
 font-family: 'Neuton', serif;
 font-style: normal;
 font-weight: normal;
-font-size: 25px;
+font-size: 200%;
 text-align: justify;
 }
 
@@ -164,4 +152,8 @@ text-align: justify;
   top: 2780px;
   position: absolute;
   left:1000px;
+
 }
+
+
+
