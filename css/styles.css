@@ -6,7 +6,7 @@
 */
 
 .logo {
-    width:500px;
+    width:600px;
     height: 500px;
     display: block;
     margin-left: auto;
@@ -36,6 +36,9 @@ h1 {
   font-family: 'Philosopher', sans-serif;
   text-align: center;
   font-size: 100px;
+  color:#4F4F4F;
+  padding-bottom: 50px;
+  padding-top: 50px;
 }
 
 .word4 {
@@ -46,7 +49,34 @@ h1 {
 
 section {
   background-color: #714BA0;
-  padding: 50px;
-  display:inline-block;
+  padding: 10px;
+  width: 1000px;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
 }
 
+.a{
+  font-family: Philosopher;
+font-style: normal;
+font-weight: bold;
+font-size: 80px;
+line-height: 108px;
+text-align: left;
+color:#BDBDBD;
+padding-left: 85px;
+}
+
+.bio{
+position: absolute;
+width: 600px;
+height: 243px;
+left: 420px;
+top: 1950px;
+font-family: 'Neuton', serif;
+font-style: normal;
+font-weight: normal;
+font-size: 25px;
+text-align: justify;
+
+
+}
