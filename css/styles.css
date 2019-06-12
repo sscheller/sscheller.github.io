@@ -5,16 +5,23 @@
 * Outline Elements
 */
 
-h1 {
-    align:center;
-}
 .logo {
-    width:400px;
-    height: 400px;
-    right:50%;
+    width:500px;
+    height: 500px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  
 
     /* bring your own prefixes */
 
+  }
+
+  .pic{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
   }
 
   /* sonja picture */
@@ -22,6 +29,24 @@ h1 {
 div {
   background-size: cover;
     padding-top: 50px;
+    color:burlywood;
 }
 
+h1 {
+  font-family: 'Philosopher', sans-serif;
+  text-align: center;
+  font-size: 100px;
+}
+
+.word4 {
+  color:#714BA0;
+  font-family: 'Philosopher', sans-serif;
+  font-style: italic bold;
+}
+
+section {
+  background-color: #714BA0;
+  padding: 50px;
+  display:inline-block;
+}
 
