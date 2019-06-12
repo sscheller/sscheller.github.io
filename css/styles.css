@@ -35,7 +35,7 @@ div {
 h1 {
   font-family: 'Philosopher', sans-serif;
   text-align: center;
-  font-size: 100px;
+  font-size: 120px;
   color:#4F4F4F;
   padding-bottom: 50px;
   padding-top: 50px;
@@ -47,13 +47,6 @@ h1 {
   font-style: italic bold;
 }
 
-section {
-  background-color: #714BA0;
-  padding: 10px;
-  width: 1000px;
-  border-top-right-radius: 20px;
-  border-bottom-right-radius: 20px;
-}
 
 .a{
   font-family: Philosopher;
@@ -61,10 +54,39 @@ font-style: normal;
 font-weight: bold;
 font-size: 80px;
 line-height: 108px;
-text-align: left;
+text-align: center;
 color:#BDBDBD;
 padding-left: 85px;
+/*tile part after */
+background-color: #714BA0;
+padding: 5px;
+width: 1000px;
+border-top-right-radius: 20px;
+border-bottom-right-radius: 20px;
 }
+
+.b{
+  font-family: Philosopher;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 80px;
+  line-height: 108px;
+  text-align: center;
+  color:#BDBDBD;
+  padding-left: 85px;
+  /*tile part after */
+  background-color: #BC9CDA;
+  padding: 5px;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  position: absolute;
+  left:260px;
+  top: 2250px;
+width: 1000px;
+color:#714BA0;
+}
+
+
 
 .bio{
 position: absolute;
@@ -77,6 +99,32 @@ font-style: normal;
 font-weight: normal;
 font-size: 25px;
 text-align: justify;
+}
 
-
+#circle {
+  width: 180px;
+  height: 120px;
+  background: red;
+  border-radius: 50%;
+  top: 2550px;
+  position: absolute;
+  left:200px;
+}
+#circle1 {
+  width: 180px;
+  height: 120px;
+  background: red;
+  border-radius: 50%;
+  top: 2550px;
+  position: absolute;
+  left:600px;
+}
+#circle2 {
+  width: 180px;
+  height: 120px;
+  background: red;
+  border-radius: 50%;
+  top: 2550px;
+  position: absolute;
+  left:1000px;
 }
