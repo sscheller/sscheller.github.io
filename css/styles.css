@@ -102,7 +102,7 @@ top:1900px;
   padding-left: 85px;
   /*tile part after */
   background-color: #BC9CDA;
-  padding: 5px;
+  padding: 80px;
   border-top-left-radius: 20px;
   border-bottom-left-radius: 20px;
   position: absolute;
@@ -126,22 +126,27 @@ font-size: 200%;
 text-align: justify;
 }
 
+aside{
+  position:absolute;
+}
+
+
 #Time {
 
   top: 2780px;
-  position: absolute;
+  position: relative;
   left:200px;
 }
 #Shadle {
  
   top: 2780px;
-  position: absolute;
+  position: relative;
   left:600px;
 }
 #Inland {
 
   top: 2780px;
-  position: absolute;
+  position: relative;
   left:1000px;
 
 }
