@@ -106,7 +106,7 @@ top:1900px;
   border-top-left-radius: 20px;
   border-bottom-left-radius: 20px;
   position: absolute;
-  left:260px;
+  left:400px;
   top: 2480px;
 width: 80%;
 color:#714BA0;
@@ -126,29 +126,20 @@ font-size: 200%;
 text-align: justify;
 }
 
-#circle {
-  width: 180px;
-  height: 120px;
-  background: red;
-  border-radius: 50%;
+#Time {
+
   top: 2780px;
   position: absolute;
   left:200px;
 }
-#circle1 {
-  width: 180px;
-  height: 120px;
-  background: red;
-  border-radius: 50%;
+#Shadle {
+ 
   top: 2780px;
   position: absolute;
   left:600px;
 }
-#circle2 {
-  width: 180px;
-  height: 120px;
-  background: red;
-  border-radius: 50%;
+#Inland {
+
   top: 2780px;
   position: absolute;
   left:1000px;
