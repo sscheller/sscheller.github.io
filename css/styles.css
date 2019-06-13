@@ -1,165 +1,52 @@
-/*My Awesome Styles*/
-
-/*Diagnostic Styling
-* Change background color
-* Outline Elements
-*/
-
-
-.container .pic{
-  background-image: url(japan.jpg);
-  background-repeat: no-repeat;  
-  background-attachment: scroll;  
-
-  width: 100%;
-  top:50%;
-}
-
-.logo {
-    width:50%;
-    height: 50%;
-    max-width: 100%;
-  position: absolute;
-  top: 30%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-
-.container {
-	margin: 30px auto;
-    object-fit: contain;
-    top:50%;
-    position: absolute;
-  }
-
-
-    div {
-      display: block;
+/* Global.Site.Base */
  
-  }
- 
-
-    /* lower half container */
-
-     section .containment{
-      padding-top: 60px;
-      display: flex;
-      flex-wrap: wrap;
-    }
-
-
-
-
-  /* sonja picture */
-
-
- h1 {
-  font-family: 'Philosopher', sans-serif;
-  font-size: 400%;
-  color: #4F4F4F;
-text-align: center;
-}
-
-.word4 {
-  color:#714BA0;
-  font-family: 'Philosopher', sans-serif;
-  font-style: italic bold;
-}
-
-
-.Sonja{
-  width: 50%;
-
-border-color: #714BA0;
-border-style: solid;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-.a{
-  font-family: Philosopher;
-font-style: normal;
-font-weight: bold;
-font-size: 500%;
-line-height: 108px;
-text-align: center;
-color:#BDBDBD;
-padding-left: 85px;
-/*tile part after */
-background-color: #714BA0;
-padding: 5px;
-width: 80%;
-border-top-right-radius: 20px;
-border-bottom-right-radius: 20px;
-position:absolute;
-top:1900px;
-}
-
-.b{
-  font-family: Philosopher;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 500%;
-  line-height: 108px;
+h1 {
+  font-size: 5em;
   text-align: center;
-  color:#BDBDBD;
-  padding-left: 85px;
-  /*tile part after */
-  background-color: #BC9CDA;
-  padding: 80px;
-  border-top-left-radius: 20px;
-  border-bottom-left-radius: 20px;
-  position: absolute;
-  left:400px;
-  top: 2480px;
-width: 80%;
-color:#714BA0;
+  text-transform: uppercase;
 }
 
-
-
-.bio{
-
-width: 50%;
-font-family: 'Neuton', serif;
-font-style: normal;
-font-weight: normal;
-font-size: 200%;
-text-align: justify;
+h1 span:nth-child(even) {
+  color: thistle;
 }
 
-
-
-
-#Time {
-
-  top: 2780px;
+/* Home Page */
+.home {
+  background-image: url(japan.jpg);
+  width: 100%;
+  background-size: cover;
   position: relative;
-  left:200px;
 }
-#Shadle {
- 
-  top: 2780px;
-  position: relative;
-  left:600px;
-}
-#Inland {
 
-  top: 2780px;
-  position: relative;
-  left:1000px;
 
+#logo {
+  width: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 10%;
 }
 
 
 
+/* Bio */
+.bio {
+  background: turquoise;
+}
+
+
+
+
+/* Contact */
+.contact{
+  background: thistle;
+}
+
+
+
+/*Portfolio*/
+figure{
+  background: purple;
+  width: 200px;
+  padding: 1em;
+}
