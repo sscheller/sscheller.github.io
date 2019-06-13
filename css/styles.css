@@ -13,15 +13,17 @@ h1 span:nth-child(even) {
 /* Home Page */
 .home {
   background-image: url(japan.jpg);
-  -webkit-background-size: 100%; 
-  -moz-background-size: 100%; 
-  -o-background-size: 100%; 
-  background-size: 100%; 
-  -webkit-background-size: cover; 
-  -moz-background-size: cover; 
-  -o-background-size: cover; 
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
   background-size: cover;
+  width: 100%;
+  object-fit: cover;
 
+}
+@media only screen and (max-width: 767px) {
+  body { background-image: url(images/japan.jpg);
+  }
 }
 
 
