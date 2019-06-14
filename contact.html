@@ -20,29 +20,38 @@
 </head>
 <body>
 
-        <nav>
-               
-                <li><a href="/index.html">Home</a></li>
-                <li><a href="portfolio.html">Portfolio</a></li>
-                <li><a href="contact.html">Contact</a></li>
+        <div id="container">
                 <img id="logo" src="SonjaLogo.svg" alt="">
-            </nav>     
+              </div>
+      <nav id="mainnav" class="group">
+          <div id="menu">&#x2261; Menu</div>
+          <ul>
+              <li><a href="/index.html">Home</a></li>
+              <li><a href="portfolio.html">Portfolio</a></li>
+              <li><a href="contact.html">Contact</a></li>
+          </ul>
+      </nav>  
 
-<h1>Contact Me!</h1>
 
-<form 
-action="https://formspree.io/sscheller98@live.com" 
-method="POST">
+<div class="container">
 
-<label for="name">Name</label>
-    <input type="text" name="name">
-
-<label for="_replyto">email</label>   
-    <input type="email" name="_replyto">
-
-<label for="send">Send Here</label>   
-    <input type="submit" value="Send">
-
+        <h2>Contact me</h2>
+      
+        <form id="contact" action="sscheller98@live.com" method="post">
+          <div class="left">
+            <input type="text" placeholder="Name" required="required"/>
+            <input type="email" placeholder="Email" required="required"/>
+            <input type="text" placeholder="Subject" required="required"/>
+          </div>
+          <div class="right">
+            <textarea placeholder="Message" required="required"></textarea>
+          </div>
+          <div class="send-button cl">
+            <button type="submit">Send</button>
+          </div>
+        </form>
+      
+      </div>
 <!--Hidden Fields-->
 <input type="hidden" name="_subject" value="Website Contact Form" />
 

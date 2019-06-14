@@ -194,19 +194,6 @@ aside img {
   width: 80%;
 }
 
- /* Contact */
-.contact{
-  background-color: whitesmoke;
-}
-
-
-#logo {
-    width: 50%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    padding-bottom: 10%;
-  }
   
 
 
@@ -276,3 +263,143 @@ padding-top: 30px;
 aside img {
   width: 80%;
 }
+
+
+
+
+ /* Contact */
+ .contact{
+  background-color: whitesmoke;
+}
+
+
+#logo {
+    width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 10%;
+  }
+
+  
+  @import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+  *{
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  
+  body{
+    background: #f9f9f9;
+    font-family: 'Open Sans', sans-serif;
+  }
+  
+  ::-webkit-input-placeholder{color: #777;}
+  :-moz-placeholder { /* Firefox 18- */ color: #777;}
+  ::-moz-placeholder {  /* Firefox 19+ */ color: #777;}
+  :-ms-input-placeholder {color: #777;}
+  
+  .container{
+    position: relative;
+    width: 100%;
+    padding: 1em;
+    margin: auto;
+  }
+  
+  .container h2{
+    text-align: center;
+    text-transform: uppercase;
+    color: #714BA0;
+  }
+  
+  #contact input[type="text"],#contact input[type="email"], #contact textarea{
+    display: block;
+    padding: 10px;
+    margin: 10px auto;
+    width: 100%;
+    font-size: 18px;
+    color: #714BA0;
+    border: 1px solid #ccc;
+  }
+  
+  #contact textarea{
+    font-size: 16px;
+  }
+  
+  #contact input:hover, #contact textarea:hover{
+    border: 1px solid #714BA0;
+  }
+  #contact input:focus, #contact textarea:focus{
+    border: 1px solid #714BA0;
+  }
+  
+  
+  #contact textarea{
+    max-width: 100%;
+    min-width: 100%;
+    max-height: 180px;
+    min-height: 180px;
+    resize: none;
+  }
+  
+  #contact .send-button{
+    text-align: center;
+  }
+  
+  #contact .send-button button[type="submit"]{
+    color: #fff;
+    background:#714BA0;
+    border: none;
+    width: 100%;
+    padding: 10px 0;
+    font-size: 20px;
+    text-transform: uppercase;
+    transition: .5s all ease;
+    cursor: pointer;
+  }
+  
+  #contact .send-button button[type="submit"]:hover{
+    background: blueviolet;
+  }
+  
+  #contact .send-button button[type="submit"]:focus{
+    position: relative;
+    top: 2px;
+  }
+  
+  /*######################################\*
+                Responsive
+  \*######################################*/
+  
+  @media screen and (min-width: 640px){
+    .container{
+      width: 600px;
+    }
+    
+    #contact textarea{
+      max-width: 98%;
+      min-width: 98%;
+      min-height: 152px;
+      margin-right: 0;
+    }
+  
+    #contact .right,#contact .left{
+      display: block;
+    }
+  
+    #contact .right{
+      float: right;
+      width: 50%;
+    }
+    
+    #contact .left{
+      float: left;
+      width: 50%;
+    }
+    .cl{
+      clear: both;
+    }
+  }
