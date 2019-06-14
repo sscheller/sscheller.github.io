@@ -97,7 +97,15 @@ article{
   width: 50%;
 }
 
-
+p{
+  text-align: center;
+  padding-top: 20px;
+  padding-right: 50px;
+  padding-left: 50px;
+  padding-bottom: 20px;
+  background-color: #714BA0;
+  max-width: 100%;
+}
 
 
 h1 {
@@ -160,7 +168,8 @@ article{
   margin-left: auto;
   margin-right: auto;
     padding-top: 50px;
-    display: inline;
+    display: block;
+    background-color: #714BA0;
 }
 
 
@@ -418,8 +427,12 @@ aside img {
     color: white;
   }
 
+  * {
+    box-sizing: border-box;
+
+  }
   /*Shadle*/
-  button{
+  button {
     background-color: #714BA0;
    margin-top: 50px;
     padding: 10px;
