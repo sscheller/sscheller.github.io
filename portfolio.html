@@ -2,47 +2,63 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>About Me!</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1,user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge,chrome=1">
+    <meta name="HandheldFriendly" content="true">
+
+    <title>Sonja's Portfolio</title>
+    <!--Favicons-->
+    <link rel="apple-touch-icon" sizes="180x180" href="favicons">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicons/favicon-16x16.png">
+    <link rel="manifest" href="favicons/site.webmanifest">
+    <link rel="mask-icon" href="favicons/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+
+    <!--Stylesheets-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Milonga|Philosophe|Neutonr&display=swap" rel="stylesheet">
+
+
 </head>
-<body>
-
-      
-                <nav>
-               
-                        <li><a href="/index.html">Home</a></li>
-                        <li><a href="portfolio.html">Portfolio</a></li>
-                        <li><a href="contact.html">Contact</a></li>
-                        <img id="logo" src="SonjaLogo.svg" alt="">
-                    </nav>     
-
-        <h1>Portfolio</h1>
-        <article class="portfolio">
-        <figure>
-            <a href="https://images.unsplash.com/photo-1557853375-d424b71231af" class="chocolat-image">
-                <img src="http://placehold.it/200x200" 
-                alt="thumbnail">   
-                    </a> 
-                    <figcaption>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Alias enim quod vero? Quasi laborum neque hic molestiae similique? Minima delectus repudiandae ullam natus! Quae molestias a et voluptatum assumenda vero!</figcaption>       
-            </figure>
+<body class="home">
+         <div id="container">
+              <img id="logo" src="SonjaLogo.svg" alt="">
+            </div>
+    <nav id="mainnav" class="group">
+        <div id="menu">&#x2261; Menu</div>
+        <ul>
+            <li><a href="/index.html">Home</a></li>
+            <li><a href="portfolio.html">Portfolio</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>     
         
-        
-        <figure>
-            <a href="https://images.unsplash.com/photo-1559497084-be53055a554d"
-                class="chocolat-image">
-                <img src="http://placehold.it/200x200" alt="thumbnail2">
-                  </a>
-                  <figcaption>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Alias enim quod vero? Quasi laborum neque hic molestiae similique? Minima delectus repudiandae ullam natus! Quae molestias a et voluptatum assumenda vero!</figcaption>
-        </figure>
-        
-        <figure>
-            <a href="https://images.unsplash.com/photo-1557308917-ef00c7059bfd"
-                class="chocolat-image">
-                <img src="http://placehold.it/200x200" alt="thumbnail3">
-               </a>
-               <figcaption>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Alias enim quod vero? Quasi laborum neque hic molestiae similique? Minima delectus repudiandae ullam natus! Quae molestias a et voluptatum assumenda vero!</figcaption>
-        </figure>
-        </article>
-</body>
+    <aside>
+          
+            <div>
+                    <img src="Inland.png" alt="thumbnail">   
+                            
+                      </div>
+                
+            <div>
+                    <img src="Shadle.png" alt="thumbnail2">
+                 
+                    </div>
+            
+            <div>
+                    <img src="Time.png" alt="thumbnail3">
+                   
+                  </div>
+          </aside>
+    
+        <!-- jQuery -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <!-- Plugins -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/lettering.js/0.7.0/jquery.lettering.min.js"></script>
+        <!-- My Scripts -->
+        <script src="js/scripts.js"></script>
+    </body>
 </html>

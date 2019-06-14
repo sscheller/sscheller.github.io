@@ -224,7 +224,13 @@ aside img {
   padding-bottom: 10%;
 }
 
-figure{
-  width: 200px;
-  padding: 1em;
+aside{
+  display:flex;
+  padding-right: 30px;
+  padding-left: 30px;
+padding-top: 30px;
+}
+
+aside img {
+  width: 80%;
 }
