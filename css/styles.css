@@ -403,3 +403,40 @@ aside img {
       clear: both;
     }
   }
+
+
+  /*Inland*/
+ 
+  button{
+    background-color: #714BA0;
+   margin-top: 50px;
+    padding: 10px;
+  }
+
+  button:hover{
+    background-color: blueviolet;
+    color: white;
+  }
+
+  /*Shadle*/
+  button{
+    background-color: #714BA0;
+   margin-top: 50px;
+    padding: 10px;
+  }
+
+  button:hover{
+    background-color: blueviolet;
+    color: white;
+  }
+  /*Time*/
+  button{
+    background-color: #714BA0;
+   margin-top: 50px;
+    padding: 10px;
+  }
+
+  button:hover{
+    background-color: blueviolet;
+    color: white;
+  }
