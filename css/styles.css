@@ -172,8 +172,7 @@ min-height: 250px;
 
 
 aside{
-  display: flex;
-  justify-content: space-between;
+  display:flex;
   padding-right: 30px;
   padding-left: 30px;
 padding-top: 30px;
@@ -185,8 +184,9 @@ padding-top: 30px;
   font-size: 2.5em;
   text-align: center;
 font-family: 'Baloo+Bhai', serif;
-  color: black;
+  color: white;
   padding-top: 30px;
+  background-color: #714BA0;
 }
 
 aside img {
