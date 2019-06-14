@@ -224,6 +224,48 @@ aside img {
   padding-bottom: 10%;
 }
 
+#mainnav {
+  background:#714BA0;
+  color: #fff;
+  font-weight: bold;
+  text-transform:uppercase;
+  letter-spacing: .05em;
+}
+
+#mainnav #menu {
+  display: none;
+  padding: .8em 1.5em;
+  cursor: pointer;
+}
+
+
+#mainnav ul {
+  display: block;
+  margin: 0;
+  text-align: center;
+}
+
+#mainnav ul li {
+  margin: 0;
+  list-style: none;
+  display: inline-block;
+}
+
+#mainnav ul li a {
+  color: #fff;
+  text-decoration: none;
+  display: inline-block;
+  padding: .9em 1.5em .8em 1.5em;
+}
+
+#mainnav ul li a:hover {
+  color: #714BA0;
+  background: #aaa;
+}
+
+
+
+
 aside{
   display:flex;
   padding-right: 30px;
