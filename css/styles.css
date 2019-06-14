@@ -76,33 +76,9 @@ width: 100%;}
   background: #aaa;
 }
 
-@media all and (min-width: 768px) and (max-width: 992px) {
 
-}
 
-/* MOBILE (Smaller than 768px)*/
-@media all and (max-width: 767px) {
-	
-    #mainnav #menu {
-        display: block;
-    }
 
-    #mainnav ul {
-        display: none;
-        background: #714BA0;
-        padding: 1em;
-        text-align: left;
-    }
-    #mainnav ul li {
-        display: block;
-    }
-
-    #mainnav ul li a {
-        display: block;
-        padding: .75em 1.5em .5em 1.5em;
-    }
-
-}
 
 .content {
   padding: 1.5em;
