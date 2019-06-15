@@ -25,7 +25,8 @@ background-color: whitesmoke;
 
 header img
  { max-width: 100%; 
-width: 100%;}
+width: 100%;
+height: 100%;}
 
 
 #logo {
@@ -58,24 +59,21 @@ width: 100%;}
   text-align: center;
 }
 
-#mainnav ul li {
-  margin: 0;
-  list-style: none;
-  display: inline-block;
-}
-
-#mainnav ul li a {
-  color: #fff;
-  text-decoration: none;
-  display: inline-block;
-  padding: .9em 1.5em .8em 1.5em;
-}
 
 #mainnav ul li a:hover {
   color: #714BA0;
   background: #aaa;
 }
+@media all and (min-width: 768px) and (max-width: 992px) {
 
+}
+
+/* MOBILE (Smaller than 768px)*/
+@media all and (max-width: 767px) {
+	
+
+
+}
 
 
 
@@ -453,3 +451,43 @@ aside img {
     background-color: blueviolet;
     color: white;
   }
+
+  
+  img {
+    width: 100%;
+    height: 100%;
+    vertical-align: middle;
+  }
+  
+  .pics_in_a_row {
+    display: flex;
+  }
+  
+  .img1 { flex: 1.3344; }
+  .img2 { flex: 1.3345; }
+  .img3 { flex: 0.7505;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    object-fit: contain;
+    width: 100%
+ }
+  
+  
+  
+  
+  /* Aaaand just some general styling. */
+  
+  *, *:before, *:after {
+    box-sizing: border-box;
+  }
+
+  .pics_in_a_row {
+    margin: 25px 0;
+  }
+  
+  .pics_in_a_row > div:not(:last-child) {
+    margin-right: 2%;
+  }
+  
+  
