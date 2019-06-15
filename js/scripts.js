@@ -13,3 +13,8 @@ console.log('OK');
     });
 
 
+    $('.tlt').textillate({ 
+        in: { effect: 'fadeIn'}, 
+        out: {effect: 'fadeOut'},
+        loop:'true',
+    });

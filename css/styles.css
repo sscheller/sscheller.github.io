@@ -1,11 +1,13 @@
 /* Global.Site.Base */
  
 h1 {
-  font-size: 4em;
+  font-size: 3em;
   text-align: center;
   text-transform: uppercase;
   font-family: 'Philosopher', sans-serif;
 }
+
+
 
 .word4 {
   color:#714BA0;
@@ -77,14 +79,51 @@ height: 100%;}
 
 
 
-
 .content {
   padding: 1.5em;
 }
 
 section {
-  padding: 10px;
+
+  padding-left: 40px;
+  padding-right: 40px;
+  font-size: 10px;
 }
+
+@media all and (min-width: 768px) and (max-width: 992px) {
+
+  h1 {
+
+    font-size: 38px;
+    text-align: center;
+    color: black;
+    font-family: 'Baloo+Bhai', serif;
+}
+section{
+  padding-left: 40px;
+  padding-right: 30px;
+
+}
+
+}
+
+/* MOBILE (Smaller than 768px)*/
+@media all and (max-width: 767px) {
+
+section{
+  padding-left: 40px;
+  padding-right: 30px;
+}
+  p{
+    padding-left:10px;
+    padding-right:10px;
+  }
+
+ 
+}
+
+
+
 
 article{
   width:100%;
@@ -98,21 +137,22 @@ article{
 p{
   text-align: center;
   padding-top: 20px;
-  padding-right: 50px;
-  padding-left: 50px;
+  padding-right: 40px;
+  padding-left: 40px;
   padding-bottom: 20px;
   background-color: #714BA0;
   max-width: 100%;
 }
 
 
+
 h1 {
-    letter-spacing: 7px;
     text-transform: uppercase;
     font-size: 4.5em;
     text-align: center;
   color:black;
   font-family: 'Baloo+Bhai', serif;
+
   
   
 }
@@ -258,19 +298,14 @@ aside img {
 }
 
 
-
-
-aside{
-  display:inline-block;
-    margin-left: auto;
-    margin-right: auto;
+main
+{
+  margin-top: 30px; 
+  width: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
-
-aside img {
-  width: 80%;
-  vertical-align: middle;
-}
-
 
 
 
