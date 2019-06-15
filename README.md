@@ -12,3 +12,5 @@ https://codepen.io/kccnma/pen/Bykjr
 contact form:
 https://codepen.io/ArnaudBalland/pen/NPENvm
 
+gallery styling:
+https://codepen.io/blimpage/pen/obWdgp
