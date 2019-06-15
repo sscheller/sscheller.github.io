@@ -12,9 +12,13 @@ console.log('OK');
         }  
     });
 
-
+//Textillate
     $('.tlt').textillate({ 
         in: { effect: 'fadeIn'}, 
         out: {effect: 'fadeOut'},
         loop:'true',
     });
+
+
+
+
