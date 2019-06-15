@@ -17,3 +17,7 @@ https://codepen.io/blimpage/pen/obWdgp
 
 javascript plugins:
 https://github.com/jschr/textillate
+
+
+footer:
+http://aarongriffis.com/
