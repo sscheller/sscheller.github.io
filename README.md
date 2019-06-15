@@ -14,3 +14,6 @@ https://codepen.io/ArnaudBalland/pen/NPENvm
 
 gallery styling:
 https://codepen.io/blimpage/pen/obWdgp
+
+javascript plugins:
+https://github.com/jschr/textillate
