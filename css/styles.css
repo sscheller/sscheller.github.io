@@ -576,17 +576,25 @@ main
  
  
  /*FOOTER*/
-
+footer{
+  background: #714BA0;
+  padding: 1em ;
+  position: absolute;
+}
 
   #footerimages1{
     width:9%;
     float: right;
+    position: relative;
+    padding-top: 15px;
+  
 
   
   }
   #footerimages2{
     width:15%;
     float:right;
+  position: relative;
   } 
  
   
