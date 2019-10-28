@@ -230,9 +230,15 @@ min-height: 250px;
 }
 
 
-aside{
-  display:flex;
-}
+#position{
+  margin-top: 30px; 
+  width: 40%;
+  height:40%;
+  display: block;
+    margin-left: auto;
+    margin-right: auto;}
+
+
 
 .h2other{
   letter-spacing: 7px;
@@ -301,9 +307,8 @@ main
   width: 40%;
   height:40%;
   display: block;
-  margin-left: auto;
-  margin-right: auto;
-  padding-bottom: 20%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 
@@ -531,19 +536,14 @@ main
 
   
   
-  /* Aaaand just some general styling. */
-  
-  *, *:before, *:after {
-    box-sizing: border-box;
-  }
-  
   
   /*Time*/
-  button{
+  button {
     background-color: #714BA0;
-   margin-top: 40px;
+   margin-top: 30px;
     padding: 10px;
     margin-bottom: 30px;
+    width: 30%;
   }
 
   button:hover{
@@ -572,15 +572,21 @@ main
     width: 100%
  }
   
-  .footer{
-    color: #714BA0;
-    width: 100%;
-    display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-    float: left;
-  }
+ 
+ 
+ 
+ /*FOOTER*/
+
+
+  #footerimages1{
+    width:9%;
+    float: right;
 
   
+  }
+  #footerimages2{
+    width:15%;
+    float:right;
+  } 
  
   
